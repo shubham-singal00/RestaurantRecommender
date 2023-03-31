@@ -3,6 +3,7 @@ package com.restaurantrecommender.RR.entity;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 public class Restaurant {
@@ -11,6 +12,6 @@ public class Restaurant {
     private int costBracket;
     private float rating;
     private boolean isRecommended;
-    private LocalDate onboardedTime;
+    private LocalDateTime onboardedTime;
 
 }
